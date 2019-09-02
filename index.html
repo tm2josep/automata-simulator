@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Automata Simulator</title>
+    <!-- My code -->
+    <script src="js/main.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside class="settings">
+        <label for="characters" class="inp">
+            <input type="text" id="characters" placeholder="&nbsp;">
+            <span class="label">ACCEPTABLE CHARACTERS</span>
+            <span class="border"></span>
+        </label>
+        <label for="inputs" class="inp">
+            <input type="text" id="inputs" placeholder="&nbsp;">
+            <span class="label">INPUT STRING</span>
+            <span class="border"></span>
+        </label>
+        <div id="holder">
+            <div class="button">
+                <p class="btnText">READY?</p>
+                <div class="btnTwo">
+                    <p class="btnText2">GO!</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <canvas id="screen" width="800" height="800" class="screen">Your browser does not support canvas</canvas>
+</body>
+
+</html>
